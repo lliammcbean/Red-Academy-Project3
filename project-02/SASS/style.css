@@ -1,0 +1,82 @@
+/* line 2, /Users/thetheresawright/Documents/redAcademy/projects/project-02/SASS/style.scss */
+body {
+  background-color: black;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'OpenSans-Light'; }
+  /* line 7, /Users/thetheresawright/Documents/redAcademy/projects/project-02/SASS/style.scss */
+  body ul {
+    list-style: none;
+    padding: 0; }
+
+@font-face {
+  font-family: 'OpenSans-Bold';
+  src: url(fonts/OpenSans-Bold.ttf); }
+
+@font-face {
+  font-family: 'OpenSans-BoldItalic';
+  src: url(fonts/OpenSans-BoldItalic.ttf); }
+
+@font-face {
+  font-family: 'OpenSans-Light';
+  src: url(fonts/OpenSans-Light.ttf); }
+
+@font-face {
+  font-family: 'OpenSans-LightItalic';
+  src: url(fonts/OpenSans-LightItalic.ttf); }
+
+/* line 31, /Users/thetheresawright/Documents/redAcademy/projects/project-02/SASS/style.scss */
+.header-container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-top: 100px; }
+  @media screen and (min-width: 600px) {
+    /* line 31, /Users/thetheresawright/Documents/redAcademy/projects/project-02/SASS/style.scss */
+    .header-container {
+      flex-flow: row;
+      margin-top: 180px;
+      margin-right: 80px;
+      justify-content: center; } }
+  @media screen and (min-width: 1000px) {
+    /* line 31, /Users/thetheresawright/Documents/redAcademy/projects/project-02/SASS/style.scss */
+    .header-container {
+      justify-content: flex-start; } }
+  /* line 47, /Users/thetheresawright/Documents/redAcademy/projects/project-02/SASS/style.scss */
+  .header-container .logo {
+    display: flex;
+    justify-content: center; }
+  /* line 51, /Users/thetheresawright/Documents/redAcademy/projects/project-02/SASS/style.scss */
+  .header-container .form-text {
+    display: flex;
+    justify-content: center;
+    align-content: center; }
+
+@media screen and (min-width: 1000px) {
+  /* line 58, /Users/thetheresawright/Documents/redAcademy/projects/project-02/SASS/style.scss */
+  .form-container {
+    margin-left: 25px; } }
+
+/* line 62, /Users/thetheresawright/Documents/redAcademy/projects/project-02/SASS/style.scss */
+.form-container .sections-container {
+  display: flex;
+  justify-content: center; }
+
+/* line 68, /Users/thetheresawright/Documents/redAcademy/projects/project-02/SASS/style.scss */
+.articles-container ul {
+  display: flex;
+  flex-wrap: wrap; }
+  /* line 72, /Users/thetheresawright/Documents/redAcademy/projects/project-02/SASS/style.scss */
+  .articles-container ul li img {
+    max-width: none;
+    width: 100%; }
+
+/* line 79, /Users/thetheresawright/Documents/redAcademy/projects/project-02/SASS/style.scss */
+.copyright {
+  text-align: center;
+  margin-top: 250px;
+  font-size: 0.9rem;
+  font-family: 'OpenSans-Light';
+  color: #c2c2c2; }
+
+/*# sourceMappingURL=style.css.map */

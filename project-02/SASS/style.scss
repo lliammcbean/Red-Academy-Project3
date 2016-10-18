@@ -1,0 +1,89 @@
+
+body {
+    background-color: black;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'OpenSans-Light';
+    ul{
+      list-style: none; 
+      padding: 0;
+    }
+    
+}
+
+@font-face {
+    font-family:'OpenSans-Bold';
+    src: url(fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+    font-family:'OpenSans-BoldItalic';
+    src: url(fonts/OpenSans-BoldItalic.ttf);
+}
+@font-face {
+    font-family:'OpenSans-Light';
+    src: url(fonts/OpenSans-Light.ttf);
+}
+@font-face {
+    font-family:'OpenSans-LightItalic';
+    src: url(fonts/OpenSans-LightItalic.ttf);
+}
+
+.header-container {
+    display:flex;
+    flex-flow: column;
+    align-items: center;
+    margin-top: 100px;
+        @media screen and (min-width: 600px) {
+        flex-flow: row;
+        margin-top: 180px;
+        margin-right: 80px;
+        justify-content: center;
+}
+    @media screen and (min-width: 1000px) {
+        justify-content: flex-start;
+    }
+    
+
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+    .form-text {
+        display:flex;
+        justify-content: center;
+        align-content: center;
+    }
+    
+}
+    .form-container {
+         @media screen and (min-width: 1000px) {
+        margin-left: 25px;
+    }
+    .sections-container {
+        display: flex;
+        justify-content: center;
+}
+}
+.articles-container {
+    ul{
+        display:flex;
+        flex-wrap: wrap;
+        li{
+            img {
+                max-width: none;
+                width: 100%;
+            }
+        }
+    }
+}
+.copyright {
+    text-align: center;
+    margin-top: 250px;
+    font-size: 0.9rem;
+    font-family: 'OpenSans-Light';
+    color: #c2c2c2;
+}
+    
+    
+
+
